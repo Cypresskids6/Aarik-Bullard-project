@@ -1,0 +1,72 @@
+body{
+    background-color: red;
+    font-family: cursive;
+}
+
+h2{
+    font-style: italic;
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: dashed purple 1px;
+    text-decoration: solid underline purple;
+    width: fit-content;
+}
+
+h2:hover{
+    background-color: purple;
+    color: black;
+    transition: .3s ease;
+    cursor:pointer;
+}
+
+
+#nuke{
+    width: 300px;
+}
+
+#cursed{
+    width: 300px;
+}
+
+canvas{
+    width: 200px;
+    height: 150px;
+}
+
+#can1{
+background-color: deeppink;
+animation: Moveright 2s linear infinite;
+width: 200px;
+height: 150px;
+}
+ 
+
+#can2{
+background-color: fuchsia;
+animation: Moveright 2s linear infinite;
+width: 200px;
+height: 150px;
+}
+
+@keyframes Moveright{
+    0%{
+        transform: translate(0px)  rotate(0deg);
+    }
+    50%{
+        transform: translate(1000px)  rotate(10000deg);
+    }
+}
+
+
+#can3{
+background-color: pink;
+animation: Moveright 2s linear infinite;
+width: 200px;
+height: 150px;
+}
+
+div{
+    height: 500px;
+    display: flex; 
+}
